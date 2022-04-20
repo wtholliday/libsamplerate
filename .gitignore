@@ -71,3 +71,5 @@ CMakeSettings.json
 /.vs/
 /out/
 
+.build
+.swiftpm
