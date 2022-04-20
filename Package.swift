@@ -22,6 +22,7 @@ let package = Package(
             name: "libsamplerate",
             dependencies: [],
             path: ".",
+            exclude: ["src/CMakeLists.txt", "src/Version_script.in", "src/check_asm.sh"],
             sources: ["src"],
             publicHeadersPath: "include")
     ],
